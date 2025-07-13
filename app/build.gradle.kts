@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.myapplication"
-    compileSdk = 35
+    namespace = "com.example.huertadirecta"
+    compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.myapplication"
-        minSdk = 35
-        targetSdk = 35
+        applicationId = "com.example.huertadirecta"
+        minSdk = 34
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
