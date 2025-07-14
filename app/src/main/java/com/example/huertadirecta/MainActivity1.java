@@ -8,7 +8,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class Principal extends AppCompatActivity {
+public class MainActivity1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +19,15 @@ public class Principal extends AppCompatActivity {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
+
+/*
+            spinnerHuerta = findViewById(R.id.spinnerHuerta);
+
+            String[] programas = {"Seleccione", "ADSO", "TPS"};
+            ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, programas);
+            spinnerAprendiz.setAdapter(adapter);*/
         });
+
+
     }
 }

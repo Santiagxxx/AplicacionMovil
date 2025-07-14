@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Huerta directa</string>
-    <string name="txtTitulo">Huerta directa</string>
     <string name="txtInformacion">En Huerta Directa, te conectamos con productos campesinos frescos y de calidad,\ncosechados directamente por manos locales.Disfruta de alimentos 100% naturales,\nsin intermediarios y al mejor precio. ¡Comer sano y apoyar al campo nunca fue tan fácil!</string>
+    <string name="txtHuerta">Bienvenidos a Huerta directa</string>
 </resources>
