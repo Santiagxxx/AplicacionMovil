@@ -15,7 +15,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class IniciarSesionActivity extends AppCompatActivity {
 
     EditText edtUsuario, edtContrasena;
-    Button btnIniciarSesion;
+    Button btnIniciarSesion, btnVolverInicio;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +32,7 @@ public class IniciarSesionActivity extends AppCompatActivity {
         edtUsuario = findViewById(R.id.editTextName);
         edtContrasena = findViewById(R.id.editTextPassword);
         btnIniciarSesion = findViewById(R.id.btnIniciarSesion);
+        btnVolverInicio = findViewById(R.id.btnVolverInicio);
 
         btnIniciarSesion.setOnClickListener(v -> {
             String usuario = edtUsuario.getText().toString().trim();
@@ -49,5 +50,12 @@ public class IniciarSesionActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        btnVolverInicio.setOnClickListener(v -> {
+
+            finish();
+        });
+
+
     }
 }

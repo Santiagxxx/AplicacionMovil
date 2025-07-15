@@ -12,7 +12,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity1 extends AppCompatActivity {
-        Button btnIniciar;
+        Button btnIniciar, btnSalir;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,10 +25,19 @@ public class MainActivity1 extends AppCompatActivity {
         });
 
         btnIniciar = findViewById(R.id.Iniciar);
+        btnSalir = findViewById(R.id.btnSalir);
+
+
+
         btnIniciar.setOnClickListener(v  -> {
             Toast.makeText(MainActivity1.this, "Redirigiendo a inicio de sesión...", Toast.LENGTH_SHORT).show();
             Intent i = new Intent(MainActivity1.this, IniciarSesionActivity.class);
             startActivity(i);
+        });
+
+        btnSalir.setOnClickListener(v -> {
+
+            finish();
         });
 
 

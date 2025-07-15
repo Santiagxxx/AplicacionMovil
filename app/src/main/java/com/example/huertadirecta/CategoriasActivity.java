@@ -89,10 +89,9 @@ public class CategoriasActivity extends AppCompatActivity {
             }
         });
 
-        // Listener del botón VOLVER
+
         btnVolver.setOnClickListener(v -> {
-            Intent intent = new Intent(CategoriasActivity.this, InicioActivity.class);
-            startActivity(intent);
+
             finish();
         });
     }

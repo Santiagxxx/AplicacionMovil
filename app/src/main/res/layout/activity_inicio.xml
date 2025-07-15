@@ -55,4 +55,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnProductos" />
 
+    <Button
+        android:id="@+id/btnVolvere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#39B13F"
+        android:text="@string/btnVolvere"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCategorias" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

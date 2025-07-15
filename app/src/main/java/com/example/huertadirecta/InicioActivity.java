@@ -14,7 +14,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class InicioActivity extends AppCompatActivity {
 
     TextView textViewSaludo;
-    Button btnProductos, btnCategorias;
+    Button btnProductos, btnCategorias, btnVolver;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +33,7 @@ public class InicioActivity extends AppCompatActivity {
         textViewSaludo = findViewById(R.id.textViewSaludo);
         btnProductos = findViewById(R.id.btnProductos);
         btnCategorias = findViewById(R.id.btnCategorias);
+        btnVolver = findViewById(R.id.btnVolvere);
 
         if (usuario != null && !usuario.isEmpty()) {
             textViewSaludo.setText("Hola, " + usuario);
@@ -46,6 +47,11 @@ public class InicioActivity extends AppCompatActivity {
         btnCategorias.setOnClickListener(v -> {
             Intent intent = new Intent(InicioActivity.this, CategoriasActivity.class);
             startActivity(intent);
+        });
+
+        btnVolver.setOnClickListener(v -> {
+
+            finish();
         });
     }
 }

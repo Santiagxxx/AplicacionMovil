@@ -10,4 +10,8 @@
     <string name="btn2">Iniciar sesion</string>
     <string name="btnProductos">Productos</string>
     <string name="btnCategorias">Categorias</string>
+    <string name="btnVolver2">Volver</string>
+    <string name="btnVolvere">Volver</string>
+    <string name="btnVolverInicio">Volver a inicio</string>
+    <string name="btnSalir">Salir</string>
 </resources>
