@@ -13,6 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HuertaDirecta">
         <activity
+            android:name=".CategoriasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductosActivity"
+            android:exported="false" />
+        <activity
             android:name=".InicioActivity"
             android:exported="false" />
         <activity

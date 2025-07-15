@@ -8,4 +8,6 @@
     <string name="EditText2">Contraseña</string>
     <string name="txtDatos">Ingresar datos:</string>
     <string name="btn2">Iniciar sesion</string>
+    <string name="btnProductos">Productos</string>
+    <string name="btnCategorias">Categorias</string>
 </resources>
