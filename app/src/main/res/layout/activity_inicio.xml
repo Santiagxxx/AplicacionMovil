@@ -5,15 +5,15 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".InicioActivity"
-    android:padding="24dp">
+    android:padding="24dp"
+    tools:context=".InicioActivity">
 
     <TextView
         android:id="@+id/textViewSaludo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="56dp"
         android:text="Hola, usuario"
         android:textColor="#39B13F"
         android:textSize="48sp"
